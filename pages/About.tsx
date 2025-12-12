@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { CheckCircle, Linkedin, Instagram, ExternalLink, Zap, Repeat, ShieldCheck, BarChart2 } from 'lucide-react';
+import JoinWishlist from '../components/JoinWishlist';
 import { TeamMember } from '../types';
 
 const teamMembers: TeamMember[] = [
@@ -8,8 +9,8 @@ const teamMembers: TeamMember[] = [
     name: "Darrell Muhwezi",
     role: "Founder & Managing Partner",
     bio: "As Managing Partner, Darrell is the lead operator for Aegis acquisitions. He personally manages transitions, oversees P&L, and executes long-term growth strategies. His core expertise lies in implementing marketing and tech systems for rapid scaling. As an Operating Partner at Power Studio, he has a quantifiable track record of helping service-based companies add $100k-$1M in new annual revenue.",
-    image: "https://picsum.photos/id/1005/400/500", // Placeholder
-    linkedin: "#"
+    image: "/Darrell.jpeg",
+    linkedin: "https://linkedin.com/in/darrellmuhwezi"
   },
   {
     name: "Kacper Orlowski",
@@ -245,6 +246,11 @@ const About: React.FC = () => {
           </div>
         </div>
       </section>
+
+      <JoinWishlist
+        title="Stay Connected with Our Vision"
+        description="Join our ecosystem and be the first to hear about new insights, portfolio updates, and strategic initiatives."
+      />
     </div>
   );
 };

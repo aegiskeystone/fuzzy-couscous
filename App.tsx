@@ -10,19 +10,21 @@ import Partnership from './pages/Partnership';
 import Contact from './pages/Contact';
 import Insights from './pages/Insights';
 
-const AnimatedRoutes = () => {
+const AnimatedRoutes: React.FC = () => {
   const location = useLocation();
 
   return (
     <AnimatePresence mode="wait">
-      <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/partnership" element={<Partnership />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/insights" element={<Insights />} />
-      </Routes>
+      <React.Fragment key={location.pathname}>
+        <Routes location={location}>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/partnership" element={<Partnership />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/insights" element={<Insights />} />
+        </Routes>
+      </React.Fragment>
     </AnimatePresence>
   );
 };

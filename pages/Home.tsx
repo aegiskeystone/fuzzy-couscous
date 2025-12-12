@@ -164,11 +164,11 @@ const Home: React.FC = () => {
       {/* CTA Section */}
       <section className="py-24 bg-gold-DEFAULT text-charcoal-950 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl md:text-5xl font-serif font-bold mb-6">Partner in Stewardship</h2>
-            <p className="text-xl text-charcoal-900/80 mb-10 max-w-2xl mx-auto">
+            <h2 className="text-3xl md:text-5xl font-serif font-bold mb-6 text-black antialiased">Partner in Stewardship</h2>
+            <p className="text-xl text-black mb-10 max-w-2xl mx-auto font-medium antialiased [text-shadow:_0_1px_0_rgb(0_0_0_/_5%)]">
                 Join an ecosystem of elite operators building the future of industrial services.
             </p>
-            <Button to="/contact" variant="primary" className="bg-charcoal-950 text-white hover:bg-charcoal-800 shadow-none">
+            <Button to="/contact" variant="primary" className="bg-charcoal-950 text-white hover:bg-charcoal-800 shadow-none antialiased font-semibold">
                 Start the Conversation
             </Button>
         </div>
