@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { PortfolioItem } from '../types';
+import JoinWishlist from '../components/JoinWishlist';
 import { X, ArrowUpRight } from 'lucide-react';
 
 const portfolioData: PortfolioItem[] = [
@@ -138,6 +139,11 @@ const Portfolio: React.FC = () => {
           </div>
         )}
       </AnimatePresence>
+
+      <JoinWishlist
+        title="Interested in Our Portfolio?"
+        description="Get exclusive updates on our ecosystem companies, new acquisitions, and investment opportunities."
+      />
     </div>
   );
 };

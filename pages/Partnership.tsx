@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Button from '../components/Button';
+import JoinWishlist from '../components/JoinWishlist';
 import { Target, BarChart2, Briefcase } from 'lucide-react';
 
 const Partnership: React.FC = () => {
@@ -92,6 +93,11 @@ const Partnership: React.FC = () => {
               </div>
           </div>
       </section>
+
+      <JoinWishlist
+        title="Join Our Partnership Network"
+        description="Be the first to know about acquisition opportunities and strategic partnership programs."
+      />
     </div>
   );
 };

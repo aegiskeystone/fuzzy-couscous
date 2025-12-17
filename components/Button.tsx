@@ -11,19 +11,19 @@ interface ButtonProps {
   type?: 'button' | 'submit' | 'reset';
 }
 
-const Button: React.FC<ButtonProps> = ({ 
-  children, 
-  variant = 'primary', 
-  to, 
-  onClick, 
+const Button: React.FC<ButtonProps> = ({
+  children,
+  variant = 'primary',
+  to,
+  onClick,
   className = '',
   type = 'button'
 }) => {
-  const baseStyles = "inline-flex items-center justify-center px-8 py-3 text-sm font-medium tracking-wide transition-all duration-300 transform hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-charcoal-950 focus:ring-gold-DEFAULT";
-  
+  const baseStyles = "inline-flex items-center justify-center px-8 py-3 text-sm font-medium tracking-wide transition-all duration-300 transform hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-charcoal-950 focus:ring-gold-DEFAULT antialiased font-semibold";
+
   const variants = {
-    primary: "bg-gold-DEFAULT text-charcoal-950 hover:bg-white hover:text-charcoal-950 shadow-lg shadow-gold-DEFAULT/20",
-    outline: "border border-gold-DEFAULT text-gold-DEFAULT hover:bg-gold-DEFAULT hover:text-charcoal-950",
+    primary: "bg-gold-DEFAULT text-black hover:bg-white hover:text-black shadow-lg shadow-gold-DEFAULT/20 [text-shadow:_0_1px_0_rgb(0_0_0_/_10%)]",
+    outline: "border-2 border-gold-DEFAULT text-white bg-white/5 hover:bg-gold-DEFAULT hover:text-black backdrop-blur-sm",
     ghost: "text-slate-400 hover:text-gold-DEFAULT hover:bg-white/5"
   };
 
