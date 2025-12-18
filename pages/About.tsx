@@ -16,21 +16,21 @@ const teamMembers: TeamMember[] = [
     name: "Kacper Orlowski",
     role: "Chairman",
     bio: "Kacper serves as Chairman, responsible for corporate governance, U.S. legal compliance, and strategic financial oversight. As VP of Praxia Sales Solutions, he brings high-level executive experience and operational acumen from scaling multi-state teams. Kacper leads the high-level governance for Aegis and manages the holding company's capital structure and banking relationships.",
-    image: "https://picsum.photos/id/1025/400/500", // Placeholder
+    image: "/images/Kacper.jpeg", // Placeholder
     linkedin: "#"
   },
   {
     name: "Jeremiah Attaochu",
     role: "Investor & Partner - Head of Partnerships",
     bio: "A key capital partner bringing unique dual-track experience as both a successful entrepreneur and a former NFL linebacker. Jeremiah applies the discipline and high-performance team building of elite sports to business ventures. He provides significant capital backing and focuses on high-level strategy to fuel the firm's acquisition and roll-up strategy.",
-    image: "https://picsum.photos/id/1062/400/500", // Placeholder
+    image: "/images/Jeremiah.jpeg", // Placeholder
     instagram: "https://www.instagram.com/jattaochu97"
   },
   {
     name: "Anthony Carter",
     role: "Strategic Partner",
     bio: "CEO of Power Studio, the strategic partner responsible for executing 'Phase 2' (Scaling) and 'Phase 3' (Ecosystem) stages. His firm specializes in advanced marketing, tech stack implementation, and systems integration. Anthony's team is the 'how' of the growth plan, ensuring standardized, integrated, and optimized bolt-on acquisitions.",
-    image: "https://picsum.photos/id/1012/400/500", // Placeholder
+    image: "/images/Coach.jpeg", // Placeholder
     linkedin: "https://www.linkedin.com/in/anthonycarter1910"
   }
 ];
