@@ -1,1 +1,0 @@
-export const DB_PATH = './src/db/database.sqlite';
